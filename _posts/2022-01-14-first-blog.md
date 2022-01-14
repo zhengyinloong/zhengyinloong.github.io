@@ -2,7 +2,11 @@
 layout: post
 title:  "My frist blog!!!"
 date:   2022-01-14 23:06:34
-categories: jekyll
+categories: blog
 comments: true
 ---
 # Hellow,world!!!
+调试OK.
+当你看到这篇文章时，我原来的网页已经退休了。因为他的确是不太美观 🥲  
+现在这个应当是功能很完备了，我也可以及时上传我的博客。  
+感谢 [LiXizhi](lixizhi.github.io) 提供的模板，非常感谢！！
