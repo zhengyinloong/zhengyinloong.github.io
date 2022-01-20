@@ -2,7 +2,7 @@
 layout: frontpage
 ---
 
-<h1 style="width:45%;color:red;background:yellow;border-radius:10px;text-align:center;">Welcome to my website</h1>
+<h1 style="width:45%;line-height:1em;color:red;background:yellow;border-radius:10px;text-align:center;">Welcome to my website</h1>
 
 This is the place where I share my notes and blogs about `python`, `HTML`, `MATLAB`, etc.  
 
