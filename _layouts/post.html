@@ -7,8 +7,8 @@ layout: default
       <header>
         <h1>{{ page.title }}</h1>
         <p align='left'>
-		{% if page.tags %} <code>{{ page.tags }}</code> | {% endif %}
 		{{ page.date | date: "%b %-d, %Y" }}
+		{% if page.tags %} | <code>{{ page.tags }}</code>{% endif %}
 		{% if page.author %} | {{ page.author }}{% endif %}
 		{% if page.meta %} | {{ page.meta }}{% endif %}
 		<span id="busuanzi_container_page_pv"> | Total reading of this article: <code><span id="busuanzi_value_page_pv"></span></code></span>
