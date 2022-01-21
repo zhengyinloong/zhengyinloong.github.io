@@ -7,14 +7,23 @@ layout: default
       <header>
         <h1>{{ page.title }}</h1>
         <p align='left'>
-          {{ page.date | date: "%b %-d, %Y" }}
+          {{ page.date | date: "%b %-d, %Y" }}&nbsp;|&nbsp;
 
-          {% if page.tags %} | <code>{{ page.tags }}</code>
-          {% else %} | <code>no tags</code>{% endif %}
-
-          {% if page.author %} | {{ page.author }}{% endif %}
-          {% if page.meta %} | {{ page.meta }}{% endif %}
-          <span id="busuanzi_container_page_pv"> | Total reading of this article:
+          <code>
+          {% if page.tags %}
+          {{ page.tags }}
+          {% else %}
+          no tags
+          {% endif %}
+          </code>
+          
+          {% if page.author %}
+          &nbsp;|&nbsp;{{ page.author }}
+          {% endif %}
+          {% if page.meta %}
+          &nbsp;|&nbsp;{{ page.meta }}
+          {% endif %}
+          <span id="busuanzi_container_page_pv">&nbsp;|&nbsp;Total reading of this article:
             <code><span id="busuanzi_value_page_pv"></span></code></span>
         </p>
       </header>
