@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Demo
-comments: true
 permalink: /demo/
 ---
 
