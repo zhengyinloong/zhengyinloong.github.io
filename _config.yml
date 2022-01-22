@@ -20,8 +20,8 @@ newsourceroot: https://github.com/zhengyinloong/zhengyinloong.github.io/new/mast
 #duoshuo_shortname: lixizhi
 #duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: zhengyinloong
-disqus_url: "http://zhengyinloong.github.io"
+# disqus_shortname: zhengyinloong
+# disqus_url: "http://zhengyinloong.github.io"
 #########################################
 
 # Build settings
