@@ -9,7 +9,7 @@ layout: default
         <p align='left'>
           {{ page.date | date: "%b %-d, %Y" }}
           {% if page.tag %}
-          &nbsp;|&nbsp;{{ page.tag }}
+          &nbsp;|&nbsp;<code>{{ page.tag }}</code>
           {% endif %}
           {% if page.author %}
           &nbsp;|&nbsp;{{ page.author }}
